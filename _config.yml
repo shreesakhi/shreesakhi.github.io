@@ -1,26 +1,27 @@
 title :Shreesakhi's Assignments
 theme: jekyll-theme-merlot
 description : These are a few programs done as a part of my projects
-#include <iostream>
-using namespace std;
+PROGRAM 1 : Is Palindrome
+#include <iostream>__
+using namespace std;__
 int main() {
     int num, rem, rev = 0, original;
     cout <<"enter any number" << endl;
-  6     cin >> num;
-  7     original = num;
-  8     while (num > 0) {
-  9         rem = num % 10;
- 10         rev = (rev * 10) + rem;
- 11         num /= 10;
- 12     }
- 13     cout <<"reverse is " << rev << endl;
- 14     if (rev == original) {
- 15         cout << "Its a palindrome !!" <<endl;
- 16     } else {
- 17         cout <<"Not a palindrome" <<endl;
- 18     }
- 19     return 0;
- 20 }
- 21 
-~                                                                                                                                               
-~                    
+    cin >> num;
+    original = num;
+    while (num > 0) {
+        rem = num % 10;
+        rev = (rev * 10) + rem;
+        num /= 10;
+    }
+    cout <<"reverse is " << rev << endl;
+    if (rev == original) {
+        cout << "Its a palindrome !!" <<endl;
+    } else {
+        cout <<"Not a palindrome" <<endl;
+    }
+    return 0;
+}
+
+                                                                                                                                               
+                    
