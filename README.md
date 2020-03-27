@@ -1,2 +1,2 @@
 # shreesakhi.github.io
-Hey!! This is my first GitHub page and I wish to create many more.
+Hey!! I am technology enthusiast with a zeal to solve new challenges.
